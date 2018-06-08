@@ -1,9 +1,17 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "lusty-form"
 version = "0.1-3"
+-- LuaDist source
 source = {
-  url = "https://github.com/Olivine-Labs/lusty-form/archive/v0.1.tar.gz",
-  dir = "lusty-form-0.1"
+  tag = "0.1-3",
+  url = "git://github.com/LuaDist-testing/lusty-form.git"
 }
+-- Original source
+-- source = {
+--   url = "https://github.com/Olivine-Labs/lusty-form/archive/v0.1.tar.gz",
+--   dir = "lusty-form-0.1"
+-- }
 description = {
   summary = "form input for lusty.",
   detailed = [[
