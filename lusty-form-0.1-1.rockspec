@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "lusty-form"
-version = "0.1-0"
+version = "0.1-1"
 -- LuaDist source
 source = {
-  tag = "0.1-0",
+  tag = "0.1-1",
   url = "git://github.com/LuaDist-testing/lusty-form.git"
 }
 -- Original source
@@ -29,5 +29,6 @@ build = {
   type = "builtin",
   modules = {
     ["lusty-form.input.form"]  = "src/input/form.lua",
+    ["lusty-form.util.http"]  = "src/util/http.lua",
   }
 }
